@@ -70,7 +70,7 @@ ui <- fluidPage(
             class = "header",
             tags$div(
                 class = "header__logo-box",
-                tags$img(src = "img/logo-white.png", alt = "Logo", class = "header__logo")
+                tags$img(src = "logo-white.png", alt = "Logo", class = "header__logo")
             ),
             tags$div(
                 class = "header__text-box",
@@ -112,25 +112,25 @@ ui <- fluidPage(
                         tags$div(
                             class = "composition",
                             tags$img(
-                                srcset = "img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w",
+                                srcset = "nat-1.jpg 300w, nat-1-large.jpg 1000w",
                                 sizes = "(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px",
                                 alt = "Photo 1",
                                 class = "composition__photo composition__photo--p1",
-                                src = "img/nat-1-large.jpg"
+                                src = "nat-1-large.jpg"
                             ),
                             tags$img(
-                                srcset = "img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w",
+                                srcset = "nat-2.jpg 300w, nat-2-large.jpg 1000w",
                                 sizes = "(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px",
                                 alt = "Photo 2",
                                 class = "composition__photo composition__photo--p2",
-                                src = "img/nat-2-large.jpg"
+                                src = "nat-2-large.jpg"
                             ),
                             tags$img(
-                                srcset = "img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w",
+                                srcset = "nat-3.jpg 300w, nat-3-large.jpg 1000w",
                                 sizes = "(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px",
                                 alt = "Photo 3",
                                 class = "composition__photo composition__photo--p3",
-                                src = "img/nat-3-large.jpg"
+                                src = "nat-3-large.jpg"
                             )
                         )
                     )
@@ -319,7 +319,7 @@ ui <- fluidPage(
                     tags$video(
                         class = "bg-video__content", autoplay = TRUE,
                         tags$source(src = "video.mp4", type = "video/mp4"),
-                        tags$source(src = "img/video.webm", type = "video/webm"),
+                        tags$source(src = "video.webm", type = "video/webm"),
                         "Your browser is not supported!"
                     )
                 ),
@@ -333,7 +333,7 @@ ui <- fluidPage(
                         class = "story",
                         tags$figure(
                             class = "story__shape",
-                            tags$img(src = "img/nat-8.jpg", alt = "Person on a tour", class = "story__img"),
+                            tags$img(src = "nat-8.jpg", alt = "Person on a tour", class = "story__img"),
                             tags$figcaption(class = "story__caption", "Mary Smith")
                         ),
                         tags$div(
@@ -354,7 +354,7 @@ ui <- fluidPage(
                         class = "story",
                         tags$figure(
                             class = "story__shape",
-                            tags$img(src = "img/nat-9.jpg", alt = "Person on a tour", class = "story__img"),
+                            tags$img(src = "nat-9.jpg", alt = "Person on a tour", class = "story__img"),
                             tags$figcaption(class = "story__caption", "Jack Wilson")
                         ),
                         tags$div(
@@ -442,11 +442,11 @@ ui <- fluidPage(
                 tags$img(
                     style = "align: center;",
                     tags$source(
-                        srcset = "img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x",
+                        srcset = "logo-green-small-1x.png 1x, logo-green-small-2x.png 2x",
                         media = "(max-width: 37.5em)"
                     ),
                     tags$img(
-                        srcset = "img/logo-green-1x.png 1x, img/logo-green-2x.png 2x", alt = "Full logo", src = "img/logo-green-2x.png"
+                        srcset = "logo-green-1x.png 1x, logo-green-2x.png 2x", alt = "Full logo", src = "logo-green-2x.png"
                     )
                 )
             ),
@@ -487,8 +487,8 @@ ui <- fluidPage(
                 class = "popup__content",
                 tags$div(
                     class = "popup__left",
-                    tags$img(src = "img/nat-8.jpg", alt = "Tour photo", class = "popup__img"),
-                    tags$img(src = "img/nat-9.jpg", alt = "Tour photo", class = "popup__img")
+                    tags$img(src = "nat-8.jpg", alt = "Tour photo", class = "popup__img"),
+                    tags$img(src = "nat-9.jpg", alt = "Tour photo", class = "popup__img")
                 ),
                 tags$div(
                     class = "popup__right",

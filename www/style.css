@@ -361,11 +361,11 @@ ORDER: Base + typography > general layout + grid > page layout > components
       border-top-left-radius: 3px;
       border-top-right-radius: 3px; }
       .card__picture--1 {
-        background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(../img/nat-5.jpg); }
+        background-image: linear-gradient(to right bottom, #ffb900, #ff7730), url(nat-5.jpg); }
       .card__picture--2 {
-        background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-6.jpg); }
+        background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(nat-6.jpg); }
       .card__picture--3 {
-        background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg); }
+        background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(nat-7.jpg); }
     .card__heading {
       font-size: 2.8rem;
       font-weight: 300;
@@ -830,7 +830,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   
   .header {
     height: 85vh;
-    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero-small.jpg);
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(hero-small.jpg);
     background-size: cover;
     background-position: top;
     position: relative; }
@@ -841,7 +841,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
         height: 95vh; } }
     @media only screen and (min-resolution: 192dpi) and (min-width: 37.5em), only screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 37.5em), only screen and (min-width: 125em) {
       .header {
-        background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero.jpg); } }
+        background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(hero.jpg); } }
     @media only screen and (max-width: 37.5em) {
       .header {
         -webkit-clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
@@ -996,7 +996,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
   
   .section-features {
     padding: 20rem 0;
-    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/nat-4.jpg);
+    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(nat-4.jpg);
     background-size: cover;
     transform: skewY(-7deg);
     margin-top: -10rem; }
@@ -1029,17 +1029,17 @@ ORDER: Base + typography > general layout + grid > page layout > components
         padding: 10rem 0; } }
   
   .book {
-    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(../img/nat-10.jpg);
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url(nat-10.jpg);
     background-size: 100%;
     border-radius: 3px;
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
     @media only screen and (max-width: 75em) {
       .book {
-        background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(../img/nat-10.jpg);
+        background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 65%, transparent 65%), url(nat-10.jpg);
         background-size: cover; } }
     @media only screen and (max-width: 56.25em) {
       .book {
-        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(../img/nat-10.jpg); } }
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%), url(nat-10.jpg); } }
     .book__form {
       width: 50%;
       padding: 6rem; }
