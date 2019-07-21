@@ -413,15 +413,15 @@ ui <- fluidPage(
                                         tags$input(type = "radio", class = "form__radio-input", id = "small", name = "size"),
                                         tags$label(
                                             `for` = "small", class = "form__radio-label",
-                                            tags$span(class = "form__radio-button", "Small tour group")
+                                            tags$span(class = "form__radio-button"), "Small tour group"
                                         )
                                     ),
                                     tags$div(
                                         class = "form__radio-group",
-                                        tags$input(type = "radio", class = "form__radio-input", id = "small", name = "size"),
+                                        tags$input(type = "radio", class = "form__radio-input", id = "large", name = "size"),
                                         tags$label(
-                                            `for` = "small", class = "form__radio-label",
-                                            tags$span(class = "form__radio-button", "Large tour group")
+                                            `for` = "large", class = "form__radio-label",
+                                            tags$span(class = "form__radio-button"), "Large tour group"
                                         )
                                     )
                                 ),
