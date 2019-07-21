@@ -1,5 +1,5 @@
 library(shiny)
-
+source("scripts/helper.R")
 ui <- fluidPage(
     theme = "style.css",
     tags$head(
@@ -25,43 +25,23 @@ ui <- fluidPage(
                     class = "navigation__list",
                     tags$li(
                         class = "navigation__item",
-                        tags$a(
-                            href = "#", class = "navigation__link",
-                            tags$span("01"),
-                            "About Natous"
-                        )
+                        navigationAnchorButton(buttonText = paste0("01 About Natous"))
                     ),
                     tags$li(
                         class = "navigation__item",
-                        tags$a(
-                            href = "#", class = "navigation__link",
-                            tags$span("02"),
-                            "Your benfits"
-                        )
+                        navigationAnchorButton(buttonText = paste0("02 Your benfits"))
                     ),
                     tags$li(
                         class = "navigation__item",
-                        tags$a(
-                            href = "#", class = "navigation__link",
-                            tags$span("03"),
-                            "Popular tours"
-                        )
+                        navigationAnchorButton(buttonText = paste0("03 Popular tours"))
                     ),
                     tags$li(
                         class = "navigation__item",
-                        tags$a(
-                            href = "#", class = "navigation__link",
-                            tags$span("04"),
-                            "Stories"
-                        )
+                        navigationAnchorButton(buttonText = paste0("04 Stories"))
                     ),
                     tags$li(
                         class = "navigation__item",
-                        tags$a(
-                            href = "#", class = "navigation__link",
-                            tags$span("05"),
-                            "Book now"
-                        )
+                        navigationAnchorButton(buttonText = paste0("05 Book now"))
                     )
                 )
             )
@@ -79,7 +59,7 @@ ui <- fluidPage(
                     tags$span(class = "heading-primary--main", "Outdoors"),
                     tags$span(class = "heading-primary--sub", "is where life happens")
                 ),
-                tags$a(href = "#section-tours", class = "btn btn--white btn--animated", "Discover our tours")
+                whiteAnchorButton(href = "#section-tours", buttonText = "Discover our tours")
             )
         ),
         tags$div(
