@@ -1,0 +1,4 @@
+﻿.RData
+node_modules
+.Rhistory
+package-lock.json
