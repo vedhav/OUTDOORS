@@ -40,7 +40,7 @@ body {
   box-sizing: border-box; }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   /*font-size: 16px;*/
   line-height: 1.7;
@@ -590,6 +590,84 @@ body {
     width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
   .row .col-3-of-4 {
     width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+  .row .col-1-of-5 {
+    width: calc((100% - 4 * 6rem) / 5); }
+  .row .col-2-of-5 {
+    width: calc(2 * ((100% - 4 * 6rem) / 5) + 6rem); }
+  .row .col-3-of-5 {
+    width: calc(3 * ((100% - 4 * 6rem) / 5) + 2 * 6rem); }
+  .row .col-4-of-5 {
+    width: calc(4 * ((100% - 4 * 6rem) / 5) + 3 * 6rem); }
+  .row .col-1-of-6 {
+    width: calc((100% - 5 * 6rem) / 6); }
+  .row .col-2-of-6 {
+    width: calc(2 * ((100% - 5 * 6rem) / 6) + 6rem); }
+  .row .col-3-of-6 {
+    width: calc(3 * ((100% - 5 * 6rem) / 6) + 2 * 6rem); }
+  .row .col-4-of-6 {
+    width: calc(4 * ((100% - 5 * 6rem) / 6) + 3 * 6rem); }
+  .row .col-5-of-6 {
+    width: calc(5 * ((100% - 5 * 6rem) / 6) + 4 * 6rem); }
+  .row .col-1-of-7 {
+    width: calc((100% - 6 * 6rem) / 7); }
+  .row .col-2-of-7 {
+    width: calc(2 * ((100% - 6 * 6rem) / 7) + 6rem); }
+  .row .col-3-of-7 {
+    width: calc(3 * ((100% - 6 * 6rem) / 7) + 2 * 6rem); }
+  .row .col-4-of-7 {
+    width: calc(4 * ((100% - 6 * 6rem) / 7) + 3 * 6rem); }
+  .row .col-5-of-7 {
+    width: calc(5 * ((100% - 6 * 6rem) / 7) + 4 * 6rem); }
+  .row .col-6-of-7 {
+    width: calc(6 * ((100% - 6 * 6rem) / 7) + 5 * 6rem); }
+  .row .col-1-of-8 {
+    width: calc((100% - 7 * 6rem) / 8); }
+  .row .col-2-of-8 {
+    width: calc(2 * ((100% - 7 * 6rem) / 8) + 6rem); }
+  .row .col-3-of-8 {
+    width: calc(3 * ((100% - 7 * 6rem) / 8) + 2 * 6rem); }
+  .row .col-4-of-8 {
+    width: calc(4 * ((100% - 7 * 6rem) / 8) + 3 * 6rem); }
+  .row .col-5-of-8 {
+    width: calc(5 * ((100% - 7 * 6rem) / 8) + 4 * 6rem); }
+  .row .col-6-of-8 {
+    width: calc(6 * ((100% - 7 * 6rem) / 8) + 5 * 6rem); }
+  .row .col-7-of-8 {
+    width: calc(7 * ((100% - 7 * 6rem) / 8) + 6 * 6rem); }
+  .row .col-1-of-9 {
+    width: calc((100% - 8 * 6rem) / 9); }
+  .row .col-2-of-9 {
+    width: calc(2 * ((100% - 8 * 6rem) / 9) + 6rem); }
+  .row .col-3-of-9 {
+    width: calc(3 * ((100% - 8 * 6rem) / 9) + 2 * 6rem); }
+  .row .col-4-of-9 {
+    width: calc(4 * ((100% - 8 * 6rem) / 9) + 3 * 6rem); }
+  .row .col-5-of-9 {
+    width: calc(5 * ((100% - 8 * 6rem) / 9) + 4 * 6rem); }
+  .row .col-6-of-9 {
+    width: calc(6 * ((100% - 8 * 6rem) / 9) + 5 * 6rem); }
+  .row .col-7-of-9 {
+    width: calc(7 * ((100% - 8 * 6rem) / 9) + 6 * 6rem); }
+  .row .col-8-of-9 {
+    width: calc(8 * ((100% - 8 * 6rem) / 9) + 7 * 6rem); }
+  .row .col-1-of-10 {
+    width: calc((100% - 9 * 6rem) / 10); }
+  .row .col-2-of-10 {
+    width: calc(2 * ((100% - 9 * 6rem) / 10) + 6rem); }
+  .row .col-3-of-10 {
+    width: calc(3 * ((100% - 9 * 6rem) / 10) + 2 * 6rem); }
+  .row .col-4-of-10 {
+    width: calc(4 * ((100% - 9 * 6rem) / 10) + 3 * 6rem); }
+  .row .col-5-of-10 {
+    width: calc(5 * ((100% - 9 * 6rem) / 10) + 4 * 6rem); }
+  .row .col-6-of-10 {
+    width: calc(6 * ((100% - 9 * 6rem) / 10) + 5 * 6rem); }
+  .row .col-7-of-10 {
+    width: calc(7 * ((100% - 9 * 6rem) / 10) + 6 * 6rem); }
+  .row .col-8-of-10 {
+    width: calc(8 * ((100% - 9 * 6rem) / 10) + 7 * 6rem); }
+  .row .col-9-of-10 {
+    width: calc(9 * ((100% - 9 * 6rem) / 10) + 8 * 6rem); }
 
 .header {
   height: 95vh;
